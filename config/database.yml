@@ -4,4 +4,4 @@ development:
   adapter: mysql
   database: flitter
   username: root
-  password: ubuntu
+  password: 
