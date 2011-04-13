@@ -1,0 +1,233 @@
+body {
+    margin:0px;
+    padding: 0px;
+    background: #C0DEED url(/images/bg-clouds.png) top left repeat-x;
+    font-family: 'Lucida Grande',sans-serif;
+    font-size: 0.75em;
+    color: #333333;
+}
+
+a img {
+    border: none;
+}
+
+a {
+    color: #2276bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+#header {
+    width: 760px;
+    margin: 25px auto 0px auto;
+}
+#header h1{
+    color: #97FFFF;
+    
+}
+#header #logo{
+    float:left;
+    width:400px;
+}
+
+
+#header #top_links_container{
+    float: right;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+#container {
+    width: 715px;
+    margin: 0 auto 25px auto;
+    background-color: #FFF;
+    padding: 20px 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+
+#main{
+    width:540px;
+    float: left;
+}
+
+#side{
+    width:160px;
+    float:right;
+}
+
+
+#flash_notice, #flash_error {
+    padding: 5px 8px;
+    margin: 10px 0;
+}
+
+#flash_notice {
+    background-color: #CFC;
+    border: solid 1px #6C6;
+}
+
+#flash_error {
+    background-color: #FCC;
+    border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+    display: inline;
+}
+
+#new_flit_form{
+    width: 521px;
+    margin-bottom: 15px;
+}
+#new_flit_form textarea{
+    width: 521px;
+    height: 44px;
+}
+#new_flit_form h3{
+    font-weight: normal;
+    font-size: 150%
+}
+#new_flit_form #latest_message {
+    color: #9C9C9C;
+    font-size: 90%;
+    padding-top: 3px;
+    float: left;
+    width: 360px;
+
+}
+#new_flit_form #submit_button_container{
+    float: right;
+    width: 160px;
+    text-align: right;
+    padding-top: 3px;
+}
+
+
+
+#flits_list {
+    margin: 0px;
+    padding: 0px;
+    width: 521px;
+}
+
+#flits_list li{
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0px;
+    background-color: #fff;
+    border-bottom: 1px dashed #D2DADA;
+
+
+}
+#flits_list li.first{
+    border-top: 1px dashed #D2DADA;
+
+}
+#flits_list li:hover{
+    background-color: #F7F7F7;
+}
+#flits_list li img{
+    float: left;
+}
+#flits_list li div.flit_message_container{
+    float:left;
+    margin-left: 10px;
+    width: 450px;
+   
+}
+#flits_list li div.flit_message_container a{
+    color: #2276bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#flits_list li div.button_container{
+    width: 115px;
+    float:right;
+}
+
+#flits_list li div.flit_message_container div.time_ago {
+    color: #9C9C9C;
+    font-size: 90%;
+    padding-top: 3px;
+
+}
+
+#errorExplanation {
+    width: 400px;
+    border: 2px solid #CF0000;
+    padding: 0px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+#errorExplanation p {
+    color: #333;
+    margin-bottom: 0;
+    padding: 8px;
+}
+
+#errorExplanation ul {
+    margin: 2px 24px;
+}
+
+#errorExplanation ul li {
+    font-size: 12px;
+    list-style: disc;
+}
+#char_count{
+    float: right;
+    font-size: 23px;
+    font-weight: bold !important;
+    color: #aaa;
+}
+.dark_red{
+    color:#5C0002 !important;
+}
+.red{
+    color:#D40D12 !important;
+}
+#my_info_container{}
+#my_info_container img {
+    float: left;
+}
+#my_info_container .contents{
+    font-family: Helvetica Neue,Helvetica,sans-serif;
+    font-weight: bold;
+    color:#333333;
+    float: left;
+    padding-left: 5px;
+    font-size: 13px;
+    line-height: 14px;
+}
+#my_info_container .contents .small{
+    font-size: 12px;
+    font-weight: normal;
+
+}
+#following_follower_container, #thumbnail_container{
+    margin-top: 15px;
+}
+#following_follower_container h4 {
+    margin: 2px 0px;
+}
